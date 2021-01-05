@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-05T05:01:36.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Zaqtlp4oDc2FM-_LEkBe" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-05T06:19:50.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="h_azznsu0qFxp5acNEFi" version="14.1.8" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1447" dy="1639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1240" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -457,7 +457,7 @@
           <mxGeometry x="125" y="439" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s7RVXyztf9bF7TmX1Sia-114" value="User" style="swimlane;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="800" y="790" width="280" height="500" as="geometry" />
+          <mxGeometry x="800" y="790" width="280" height="650" as="geometry" />
         </mxCell>
         <mxCell id="s7RVXyztf9bF7TmX1Sia-115" value="" style="ellipse;shape=startState;fillColor=#000000;" vertex="1" parent="s7RVXyztf9bF7TmX1Sia-114">
           <mxGeometry x="125.5" y="40" width="30" height="30" as="geometry" />
@@ -467,50 +467,44 @@
             <mxPoint x="140.5" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s7RVXyztf9bF7TmX1Sia-117" value="menekan tombol&#xa;hapus" style="" vertex="1" parent="s7RVXyztf9bF7TmX1Sia-114">
+        <mxCell id="s7RVXyztf9bF7TmX1Sia-117" value="menekan tombol&#xa;edit" style="" vertex="1" parent="s7RVXyztf9bF7TmX1Sia-114">
           <mxGeometry x="85.5" y="110" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="s7RVXyztf9bF7TmX1Sia-118" value="muncul pesan &#xa;konfirmasi" style="" vertex="1" parent="s7RVXyztf9bF7TmX1Sia-114">
+        <mxCell id="s7RVXyztf9bF7TmX1Sia-118" value="muncul halaman &#xa;edit jadwal" style="" vertex="1" parent="s7RVXyztf9bF7TmX1Sia-114">
           <mxGeometry x="85.5" y="220" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s7RVXyztf9bF7TmX1Sia-119" value="" style="endArrow=open;endFill=1;rounded=0" edge="1" parent="s7RVXyztf9bF7TmX1Sia-114" source="s7RVXyztf9bF7TmX1Sia-117" target="s7RVXyztf9bF7TmX1Sia-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s7RVXyztf9bF7TmX1Sia-120" value="" style="endArrow=open;endFill=1;rounded=0" edge="1" parent="s7RVXyztf9bF7TmX1Sia-114" source="s7RVXyztf9bF7TmX1Sia-118">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140.5" y="325" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s7RVXyztf9bF7TmX1Sia-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="s7RVXyztf9bF7TmX1Sia-114" source="s7RVXyztf9bF7TmX1Sia-123" target="s7RVXyztf9bF7TmX1Sia-117">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="66" y="342" />
-              <mxPoint x="66" y="123" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s7RVXyztf9bF7TmX1Sia-122" value="batal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s7RVXyztf9bF7TmX1Sia-121">
-          <mxGeometry x="-0.4581" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s7RVXyztf9bF7TmX1Sia-123" value="" style="rhombus;fillColor=none;" vertex="1" parent="s7RVXyztf9bF7TmX1Sia-114">
-          <mxGeometry x="120.5" y="322" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="s7RVXyztf9bF7TmX1Sia-124" value="Edit Jadwal" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="800" y="760" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="s7RVXyztf9bF7TmX1Sia-125" value="Database" style="swimlane;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1080.5" y="790" width="280" height="500" as="geometry" />
+          <mxGeometry x="1080.5" y="790" width="280" height="650" as="geometry" />
         </mxCell>
         <mxCell id="s7RVXyztf9bF7TmX1Sia-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s7RVXyztf9bF7TmX1Sia-125" source="s7RVXyztf9bF7TmX1Sia-127" target="s7RVXyztf9bF7TmX1Sia-128">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s7RVXyztf9bF7TmX1Sia-127" value="menghapus jadwal yang dimaksud" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="s7RVXyztf9bF7TmX1Sia-125">
-          <mxGeometry x="80" y="317" width="120" height="50" as="geometry" />
+        <mxCell id="s7RVXyztf9bF7TmX1Sia-127" value="menyimpan perubahan" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="s7RVXyztf9bF7TmX1Sia-125">
+          <mxGeometry x="80" y="480" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s7RVXyztf9bF7TmX1Sia-128" value="" style="ellipse;shape=endState;fillColor=#000000;" vertex="1" parent="s7RVXyztf9bF7TmX1Sia-125">
-          <mxGeometry x="125" y="439" width="30" height="30" as="geometry" />
+          <mxGeometry x="125" y="602" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7RVXyztf9bF7TmX1Sia-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s7RVXyztf9bF7TmX1Sia-130" target="s7RVXyztf9bF7TmX1Sia-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7RVXyztf9bF7TmX1Sia-130" value="mengubah data&#xa;yang dimaksud" style="" vertex="1" parent="1">
+          <mxGeometry x="885.5" y="1140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s7RVXyztf9bF7TmX1Sia-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s7RVXyztf9bF7TmX1Sia-118" target="s7RVXyztf9bF7TmX1Sia-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7RVXyztf9bF7TmX1Sia-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s7RVXyztf9bF7TmX1Sia-132" target="s7RVXyztf9bF7TmX1Sia-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s7RVXyztf9bF7TmX1Sia-132" value="menekan tombol&#xa;simpan" style="" vertex="1" parent="1">
+          <mxGeometry x="885.5" y="1270" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
